@@ -25,5 +25,5 @@
     - name: enable jenkins
       ansible.builtin.service:
         name: jenkins
-        enable: yes 
+        enabled: yes 
     
